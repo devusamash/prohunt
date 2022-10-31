@@ -1,0 +1,130 @@
+.gig {
+    flex: 4;
+    padding: 20px;
+  }
+  
+  .gigTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .gigAddButton {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .gigTop {
+    display: flex;
+  }
+  
+  .gigTopLeft,
+  .gigTopRight {
+    flex: 1;
+  }
+  
+  .gigTopRight {
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .gigInfoImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .gigInfoTop {
+    display: flex;
+    align-items: center;
+  }
+  
+  .gigName {
+    font-weight: 600;
+  }
+  
+  .gigInfoBottom {
+    margin-top: 10px;
+  }
+  
+  .gigInfoItem {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .gigInfoValue {
+    font-weight: 300;
+  }
+  
+  .gigBottom {
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .gigForm {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .gigFormLeft {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .gigFormLeft > label {
+    margin-bottom: 10px;
+    color: gray;
+  }
+  
+  .gigFormLeft > input {
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+  }
+  
+  .gigFormLeft >select{
+    margin-bottom: 10px;
+  }
+  
+  .gigUploadImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .gigFormRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .gigUpload{
+    display: flex;
+    align-items: center;
+  }
+  
+  .gigButton{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkblue;
+    color:white;
+    font-weight: 600;
+    cursor: pointer;
+  }
